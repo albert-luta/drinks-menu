@@ -1,7 +1,14 @@
 {
-  "name": "vite-react-ts",
+  "name": "drinks-menu",
+  "description": "A list of available drinks for my friends",
   "private": true,
   "version": "0.0.0",
+  "author": "Mircea Brisan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mishutrz2/drinks-menu"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
