@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/mishutrz2/drinks-menu"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
@@ -25,15 +26,15 @@
     "types:check": "tsc --noEmit"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
-    "@vitejs/plugin-react": "^1.3.0",
+    "@vitejs/plugin-react": "^2.0.0",
     "concurrently": "^7.2.2",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
@@ -48,7 +49,7 @@
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^26.0.0",
-    "typescript": "^4.6.3",
-    "vite": "^2.9.9"
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
   }
 }

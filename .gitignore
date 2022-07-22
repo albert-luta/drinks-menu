@@ -1,6 +1,8 @@
 # Compiled output
-/dist
-/node_modules
+node_modules
+dist
+dist-ssr
+*.local
 
 # Logs
 logs
@@ -18,21 +20,18 @@ lerna-debug.log*
 /coverage
 /.nyc_output
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
+# Editor directories and files
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Env
 .env.local
