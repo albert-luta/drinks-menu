@@ -138,6 +138,7 @@ button {
   border: none;
   padding: 0;
   background: transparent;
+  color: inherit;
 }
 
 label,

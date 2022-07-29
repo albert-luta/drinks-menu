@@ -1,0 +1,12 @@
+body {
+  background: var(--color-neutral-900);
+  color: var(--color-neutral-50);
+}
+
+a {
+  color: var(--color-primary-400);
+}
+
+a:visited {
+  color: var(--color-primary-600);
+}
