@@ -5,7 +5,6 @@
 
   /* Font sizes */
 
-  --font-size-default: 1rem;
   --font-size-heading-1: 3rem;
   --font-size-heading-2: 2.25rem;
   --font-size-heading-3: 1.5rem;
@@ -13,7 +12,6 @@
   --font-size-heading-5: 0.875rem;
   --font-size-heading-6: 0.75rem;
   --font-size-paragraph: 1rem;
-  --font-size-link: 1rem;
   --font-size-button: 0.875rem;
   --font-size-small: 0.75rem;
   --font-size-heading-1-mobile: 2.25rem;
@@ -34,7 +32,6 @@
   --line-height-heading-5: 1.5rem;
   --line-height-heading-6: 1.5rem;
   --line-height-paragraph: 1.5rem;
-  --line-height-link: 1.5rem;
   --line-height-button: 1.5rem;
   --line-height-small: 1.5rem;
   --line-height-heading-1-mobile: 3rem;

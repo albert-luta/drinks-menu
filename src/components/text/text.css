@@ -1,0 +1,64 @@
+.text--heading-1 {
+  font-size: var(--font-size-heading-1);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading-1);
+  letter-spacing: var(--letter-spacing-heading-1);
+}
+
+.text--heading-2 {
+  font-size: var(--font-size-heading-2);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: var(--line-height-heading-2);
+}
+
+.text--heading-3 {
+  font-size: var(--font-size-heading-3);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: var(--line-height-heading-3);
+}
+
+.text--heading-4 {
+  font-size: var(--font-size-heading-4);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading-4);
+  letter-spacing: var(--letter-spacing-heading-4);
+}
+
+.text--heading-5 {
+  font-size: var(--font-size-heading-5);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading-5);
+  letter-spacing: var(--letter-spacing-heading-5);
+}
+
+.text--heading-6 {
+  font-size: var(--font-size-heading-6);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading-6);
+  letter-spacing: var(--letter-spacing-heading-6);
+}
+
+.text--paragraph {
+  font-size: var(--font-size-paragraph);
+  line-height: var(--line-height-paragraph);
+}
+
+.text--small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  letter-spacing: var(--letter-spacing-small);
+}
+
+.text--strong {
+  font-weight: bolder;
+}
+
+.text--sub {
+  font-size: 0.65em;
+}
+
+.text--sup {
+  font-size: 0.65em;
+  position: relative;
+  top: -0.35em;
+}
