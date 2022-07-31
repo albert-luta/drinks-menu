@@ -6,7 +6,7 @@ import {
   ReactNode,
 } from 'react';
 import { Color } from '../../enums/color';
-import { DEFAULT_MAPPING } from './default-mapping';
+import { DEFAULT_VARIANT_MAPPING } from './default-variant-mapping';
 import { TextElements } from './text-elements';
 import { TextVariants } from './text-variants';
 import './text.css';
@@ -19,21 +19,24 @@ export type TextProps<T extends TextElements> = ComponentPropsWithoutRef<T> & {
 };
 
 export const Text = <T extends TextElements>({
-  as,
+  as: element,
   variant,
   color,
   className,
   children,
   ...props
 }: TextProps<T>): ReactElement => {
-  const variantClass = `text--variant-${variant ?? DEFAULT_MAPPING[as]}`;
-  const showVariantClass = (variant ?? DEFAULT_MAPPING[as]) !== 'none';
+  const variantClass = `text--variant-${
+    variant ?? DEFAULT_VARIANT_MAPPING[element]
+  }`;
+  const showVariantClass =
+    (variant ?? DEFAULT_VARIANT_MAPPING[element]) !== 'none';
 
   const colorClass = `text--color-${color ?? ''}`;
   const showColorClass = color !== undefined;
 
   return createElement(
-    as,
+    element,
     {
       ...props,
       className:

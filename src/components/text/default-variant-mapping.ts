@@ -1,7 +1,7 @@
 import { TextElements } from './text-elements';
 import { TextVariants } from './text-variants';
 
-export const DEFAULT_MAPPING: Record<TextElements, TextVariants> = {
+export const DEFAULT_VARIANT_MAPPING: Record<TextElements, TextVariants> = {
   h1: 'heading-1',
   h2: 'heading-2',
   h3: 'heading-3',
