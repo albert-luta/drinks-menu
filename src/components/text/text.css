@@ -146,3 +146,17 @@
 .text--color-neutral-900 {
   color: var(--color-neutral-900);
 }
+
+/* Text aligns */
+
+.text--align-left {
+  text-align: left;
+}
+
+.text--align-center {
+  text-align: center;
+}
+
+.text--align-right {
+  text-align: right;
+}

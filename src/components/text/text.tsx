@@ -15,6 +15,7 @@ export type TextProps<T extends TextElements> = ComponentPropsWithoutRef<T> & {
   as: T;
   variant?: TextVariants;
   color?: `${Color}`;
+  align?: 'left' | 'center' | 'right';
   children: ReactNode;
 };
 
@@ -22,6 +23,7 @@ export const Text = <T extends TextElements>({
   as: element,
   variant,
   color,
+  align,
   className,
   children,
   ...props
@@ -35,6 +37,9 @@ export const Text = <T extends TextElements>({
   const colorClass = `text--color-${color ?? ''}`;
   const showColorClass = color !== undefined;
 
+  const alignClass = `text--align-${align ?? ''}`;
+  const showAlignClass = align !== undefined;
+
   return createElement(
     element,
     {
@@ -43,6 +48,7 @@ export const Text = <T extends TextElements>({
         clsx(
           showVariantClass && variantClass,
           showColorClass && colorClass,
+          showAlignClass && alignClass,
           className,
         ) || undefined,
     },
