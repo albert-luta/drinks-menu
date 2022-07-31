@@ -79,3 +79,21 @@
 .box--background-color-neutral-900 {
   background-color: var(--color-neutral-900);
 }
+
+/* Border radiuses */
+
+.box--border-radius-sm {
+  border-radius: var(--border-radius-sm);
+}
+
+.box--border-radius-md {
+  border-radius: var(--border-radius-md);
+}
+
+.box--border-radius-lg {
+  border-radius: var(--border-radius-lg);
+}
+
+.box--border-radius-xl {
+  border-radius: var(--border-radius-xl);
+}
