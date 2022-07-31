@@ -1,4 +1,4 @@
-import { LinkType } from '../enums/link-type';
+import { LinkType } from '../types/link-type';
 import { getAsset } from '../utils/get-asset';
 
 export interface LinkTypeDetails {

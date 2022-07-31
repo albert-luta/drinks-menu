@@ -1,9 +1,9 @@
-import { Drink } from '../enums/drink';
-import { DrinkOrigin } from '../enums/drink-origin';
-import { DrinkType } from '../enums/drink-type';
-import { Ingredient } from '../enums/ingredient';
-import { LinkType } from '../enums/link-type';
-import { MeasurementUnit } from '../enums/measurement-unit';
+import { Drink } from '../types/drink';
+import { DrinkOrigin } from '../types/drink-origin';
+import { DrinkType } from '../types/drink-type';
+import { Ingredient } from '../types/ingredient';
+import { LinkType } from '../types/link-type';
+import { MeasurementUnit } from '../types/measurement-unit';
 import { getAsset } from '../utils/get-asset';
 
 export interface DrinkDetails {

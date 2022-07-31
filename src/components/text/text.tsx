@@ -5,7 +5,7 @@ import {
   ReactElement,
   ReactNode,
 } from 'react';
-import { Color } from '../../enums/color';
+import { Color } from '../../types/color';
 import { DEFAULT_VARIANT_MAPPING } from './default-variant-mapping';
 import { TextElements } from './text-elements';
 import { TextVariants } from './text-variants';

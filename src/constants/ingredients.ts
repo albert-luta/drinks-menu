@@ -1,4 +1,4 @@
-import { Ingredient } from '../enums/ingredient';
+import { Ingredient } from '../types/ingredient';
 
 export interface IngredientDetails {
   name: string;

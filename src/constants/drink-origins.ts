@@ -1,4 +1,4 @@
-import { DrinkOrigin } from '../enums/drink-origin';
+import { DrinkOrigin } from '../types/drink-origin';
 
 export interface DrinkOriginDetails {
   name: string;

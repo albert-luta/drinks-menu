@@ -1,4 +1,4 @@
-import { MeasurementUnit } from '../enums/measurement-unit';
+import { MeasurementUnit } from '../types/measurement-unit';
 
 export interface MeasurementUnitDetails {
   name: string;
