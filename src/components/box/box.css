@@ -519,3 +519,9 @@
 .box--pl-10 {
   padding-left: var(--size-10);
 }
+
+/* Max height */
+
+.box--max-height {
+  height: 100%;
+}

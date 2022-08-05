@@ -22,6 +22,7 @@ export type BoxProps<T extends BoxElements> = ComponentPropsWithoutRef<T> & {
   pr?: Sizes;
   pb?: Sizes;
   pl?: Sizes;
+  maxHeight?: boolean;
   children: ReactNode;
 };
 
@@ -36,6 +37,7 @@ export const Box = <T extends BoxElements>({
   pr,
   pb,
   pl,
+  maxHeight,
   className,
   children,
   ...props
@@ -82,6 +84,7 @@ export const Box = <T extends BoxElements>({
           showPRClass && prClass,
           showPBClass && pbClass,
           showPLClass && plClass,
+          maxHeight && 'box--max-height',
           className,
         ) || undefined,
     },
