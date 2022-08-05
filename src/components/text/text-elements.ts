@@ -16,4 +16,5 @@ export type TextElements = keyof Pick<
   | 'abbr'
   | 'del'
   | 'ins'
+  | 'legend'
 >;

@@ -18,4 +18,5 @@ export const DEFAULT_VARIANT_MAPPING: Record<TextElements, TextVariants> = {
   abbr: 'none',
   del: 'none',
   ins: 'none',
+  legend: 'none',
 };
