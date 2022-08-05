@@ -9,4 +9,7 @@ export type BoxElements = keyof Pick<
   | 'article'
   | 'aside'
   | 'fieldset'
+  | 'ul'
+  | 'ol'
+  | 'li'
 >;
